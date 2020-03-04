@@ -6,7 +6,8 @@
   "scripts": {
     "db-create-dev": "createdb csv_db",
     "db-drop-dev": "dropdb csv_db",
-    "db-migrate": "node node_modules/db-migrate/bin/db-migrate"
+    "db-migrate": "node node_modules/db-migrate/bin/db-migrate",
+    "db-seed": "node seed.js"
   },
   "keywords": [],
   "author": "",
