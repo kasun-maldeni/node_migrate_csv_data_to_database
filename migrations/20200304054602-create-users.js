@@ -16,7 +16,7 @@ exports.setup = function (options, seedLink) {
 
 exports.up = function (db) {
   return db.createTable('users', {
-    id: { type: 'int', primaryKey: true },
+    id: { type: 'serial', primaryKey: true },
     name: 'string',
     location: 'string',
     subject: 'string',
