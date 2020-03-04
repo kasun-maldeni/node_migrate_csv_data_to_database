@@ -4,13 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "db-create-dev": "createdb csv_db",
+    "db-drop-dev": "dropdb csv_db",
+    "db-migrate": "node node_modules/db-migrate/bin/db-migrate"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "db-migrate": "^0.11.6",
+    "db-migrate-pg": "^1.0.0",
     "pg": "^7.18.2"
   }
 }

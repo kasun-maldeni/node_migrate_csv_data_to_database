@@ -1,0 +1,7 @@
+{
+  "dev": {
+    "driver": "pg",
+    "database": "csv_db",
+    "password": "test"
+  }
+}
